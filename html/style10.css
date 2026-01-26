@@ -1,0 +1,27 @@
+.shapes{
+    width: 100px;
+    height:100px;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.shapes{
+    background-color: aquamarine;
+}
+@media(min-width: 768px){
+    .shapes{
+        background-color: blue;
+    }
+}
+@media(min-width: 1024px){
+    .shapes{
+        background-color: yellow;
+    }
+}
+
+
+
+

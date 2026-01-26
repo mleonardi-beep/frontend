@@ -1,0 +1,79 @@
+.bordo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding:20px;
+    border: 2px solid black;
+    gap: 300px;
+}
+
+.bordo-interno {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    border: 2px solid black;
+}
+
+/* Colonna 1: A */
+.colonna1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.boxA {
+    padding: 50px;
+    width: 80px;
+    height: 80px;
+    background: lightgray;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+/* Colonna 2: B sopra, C sotto */
+.colonna2 {
+    display: flex;
+    flex-direction: column; /* ← QUESTA È LA CHIAVE */
+    gap: 20px;
+}
+
+/* Box */
+.box {
+    width: 80px;
+    height: 80px;
+    background: lightgray;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 10px;
+}
+.titolo{
+    text-align: left;
+}
+.sottotitolo{
+    text-align: left;
+
+}
+.riga{
+    display:flex;
+    gap:20px;
+    flex-direction: row;
+}
+.box1 {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    background: lightgray;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+
+

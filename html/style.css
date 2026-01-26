@@ -1,0 +1,17 @@
+
+        
+.colore{
+    color: red;
+}
+        body{text-align: center ;}
+        input{
+            width:100%;
+            
+
+        }
+        .rounded{
+            border-radius: 30px;
+        }
+        .bottoni{
+            border-radius : 12px;
+        }
