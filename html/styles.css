@@ -1,0 +1,16 @@
+/* GENITORI: tutti i div */
+div {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* DISCENDENTI: tutti i p dentro un div */
+div p {
+  background-color: lightblue;
+}
+
+/* FIGLI DIRETTI: solo i p direttamente dentro un div */
+div > p {
+  border: 2px solid red;
+}

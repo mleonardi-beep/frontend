@@ -1,0 +1,17 @@
+#red{
+    background-color: red;
+}
+.yellow{
+    background: yellow;
+}
+.quadrato{
+    height: 100px;
+    width: 100px;
+}
+.red{
+    background-color: red;
+
+}
+div {
+    background-color: bisque !important;
+}
