@@ -1,0 +1,52 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 {
+    width: 190px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  /* card2 in alto, testo in basso */
+    align-items: center;
+    padding: 20px;
+    background-color: blue;
+}
+
+
+.card2 {
+    width: 180px;
+    height: 230px;
+    border: 1px solid black;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;          /* verticale */
+    justify-content: space-between;  /* spazio tra alto e basso */
+}
+
+/* Bottone in alto a destra */
+.top-right {
+    align-self: flex-end;
+}
+
+/* Bottoni in basso a sinistra */
+.bottom-left {
+    display: flex;
+    gap: 10px;
+    align-self: flex-start;
+}
+
+/* Colori */
+.color {
+    background-color: red;
+}
+
+.color1 {
+    background-color: grey;
+}

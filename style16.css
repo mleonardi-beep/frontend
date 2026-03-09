@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.card1 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+    border: 1px solid black;  
+}
+.card1 p{
+    text-align: center;
+}
+.color{
+    background-color: lightcoral;
+}
+.color.active{
+    background-color: lightgreen;
+}
